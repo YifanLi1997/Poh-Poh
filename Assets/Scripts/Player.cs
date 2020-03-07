@@ -24,6 +24,23 @@ public class Player : MonoBehaviour
         Rotate();
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("Win!");
+        }
+        else if (collision.gameObject.CompareTag("Launch"))
+        {
+            Debug.Log("Launch!");
+        }
+        else
+        {
+            Destroy(gameObject);
+            Debug.Log("Lose!");
+        }
+    }
+
     private void Rotate()
     {
         m_rigidbody.freezeRotation = true;
