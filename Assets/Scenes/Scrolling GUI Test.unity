@@ -3574,7 +3574,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1099439298}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.6333333
+  m_Size: 0.76
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5649,7 +5649,7 @@ MonoBehaviour:
   m_Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 1
+  m_ShowMaskGraphic: 0
 --- !u!114 &754926577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7109,7 +7109,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1769422664}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.62
+  m_Size: 0.56363636
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9714,8 +9714,8 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
   m_Spacing: {x: 0, y: 0}
-  m_Constraint: 1
-  m_ConstraintCount: 10
+  m_Constraint: 2
+  m_ConstraintCount: 5
 --- !u!114 &1236392567
 MonoBehaviour:
   m_ObjectHideFlags: 0
